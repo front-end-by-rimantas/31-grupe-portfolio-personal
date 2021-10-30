@@ -1,5 +1,26 @@
 #main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 70px;
-  border: 1px solid red;
-  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* hamburger style menu icon */
+#menu-icon span,
+#menu-icon span:before,
+#menu-icon span:after {
+  height: 2px;
+  width: 25px;
+  border-radius: 2px;
+  background: black;
+  position: relative;
+  display: block;
+  content: "";
+}
+#menu-icon span:before {
+  top: -7px;
+}
+#menu-icon span:after {
+  bottom: -6px;
 }
