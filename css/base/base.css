@@ -1,1 +1,63 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+
+h1 {
+    font-weight: 600;
+    font-size: 58px;
+    color: rgb(34, 34, 34);
+    line-height: 70px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    color: rgb(34, 34, 34);
+    line-height: 42px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+    line-height: 20px;
+    letter-spacing: 0;
+    text-transform: none;
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+    line-height: 16px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    line-height: 22px;
+    letter-spacing: 0;
+    text-transform: none;
+    text-decoration: none;
+}
+
+button {
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #8490FF;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+}
