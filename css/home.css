@@ -1,25 +1,52 @@
 /* base */
-@import './base/reset.css';
-@import './base/variables.css';
-@import './base/layout.css';
-@import './base/base.css';
+@import "./base/reset.css";
+@import "./base/variables.css";
+@import "./base/layout.css";
+@import "./base/base.css";
 
 /* 3rd-party */
-@import './3rd-party/font-awesome.min.css';
+@import "./3rd-party/font-awesome.min.css";
 
 /* components */
-@import './components/button.css';
-@import './components/features.css';
-@import './components/footer.css';
-@import './components/header.css';
-@import './components/mosaic.css';
-@import './components/pricing.css';
-@import './components/services.css';
+@import "./components/button.css";
+@import "./components/features.css";
+@import "./components/footer.css";
+@import "./components/header.css";
+@import "./components/mosaic.css";
+@import "./components/pricing.css";
+@import "./components/services.css";
 
 /* CUSTOM PAGE STYLE BELOW THIS COMMENT LINE */
 
 /* header start */
 /* header end */
 
-/* hero start */
-/* hero end */
+/* this is me start */
+/* this is me end */
+
+/* about me start */
+/* about me end */
+
+/* services start */
+/* services end */
+
+/* achievements start */
+/* achievements end */
+
+/* latest featured prducts start */
+/* latest featured prducts end */
+
+/* feedback start */
+/* feedback end */
+
+/* choose you plan start */
+/* choose you plan end */
+
+/* latest posts start */
+/* latest posts end */
+
+/* logos carousel start */
+/* logos carousel end */
+
+/* footer start */
+/* footer end */
