@@ -82,6 +82,55 @@ text-align: center;
 /* latest featured prducts end */
 
 /* feedback start */
+#feedback {
+  background-color: #F9F9FF;
+  padding: 7.5rem 0 7.5rem 0;
+}
+#feedback-title {
+  text-align: center;
+  padding-bottom: 3rem;;
+}
+#feedback-title h3 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding-bottom: 0.625rem;
+}
+#cards-details {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+}
+#cards-details img {
+  max-width: 5%;
+  height: 5%;
+  margin: 1.5rem 2rem 0 1.5rem;
+}
+#feedback-text {
+  padding: 1.5rem 1.5rem 0 0;
+}
+#cards-details h4 {
+  text-transform: none;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+#arrow span {
+  background-color: #FFFFFF;
+  padding: 0.875rem;
+}
+#arrow {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+#arrow span:hover {
+  color:#FFFFFF;
+  background-color: #8490ff;
+}
+#cards-details h4:hover {
+  color: #8490ff;
+}
+
 /* feedback end */
 
 /* choose you plan start */
