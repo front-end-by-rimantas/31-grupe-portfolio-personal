@@ -1,6 +1,11 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+
 html {
     font-size: 87.5%; /* (14px on default browser settings) */
+}
+
+body {
+  font-family: poppins, sans-serif;
 }
 
 h1 {
