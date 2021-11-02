@@ -134,6 +134,87 @@ text-align: center;
 /* feedback end */
 
 /* choose you plan start */
+
+#choose-your-plan {
+  text-align: center;
+  background-color: #f9f9ff;
+}
+
+#choose-your-plan .single-plan {
+  padding: 35px 15px;
+  text-align: center;
+}
+
+#choose-your-plan .single-plan:hover {
+  background: linear-gradient(90deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
+  color: #fff;
+  cursor: pointer;
+}
+
+#choose-your-plan .single-plan:hover .top .package-number {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.21);
+}
+
+#choose-your-plan .single-plan:hover .top h4 {
+  color: #fff;
+}
+
+#choose-your-plan .single-plan .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#choose-your-plan .single-plan .top .package-number {
+  font-weight: 300;
+  font-size: 30px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(132, 144, 255, 0.1);
+  border-radius: 100px;
+  border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+#choose-your-plan .single-plan .top h4 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+#choose-your-plan .single-plan .top .package-list {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+#choose-your-plan .single-plan .package-list ul {
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+#choose-your-plan .single-plan .package-list ul li {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#choose-your-plan .single-plan .package-list ul li:last-child {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#choose-your-plan .single-plan .bottom .plan-price {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
 /* choose you plan end */
 
 /* latest posts start */
