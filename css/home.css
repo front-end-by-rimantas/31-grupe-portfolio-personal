@@ -21,6 +21,22 @@
 /* header end */
 
 /* this is me start */
+#this-is-me {
+  background-color: #F9F9FF; 
+}
+#this-is-me h2 {
+  margin: 1.25rem 0;
+}
+#this-is-me {
+  padding-top: 6.25rem;
+}  
+#this-is-me-img {
+text-align: center;
+}
+#this-is-me-img img {
+  max-width: 100%;
+  height: auto;
+}
 /* this is me end */
 
 /* about me start */
@@ -35,6 +51,28 @@
 /* about me end */
 
 /* services start */
+.services {
+  text-align: center;
+  margin: 5rem 0;
+}
+.services h3 {
+  font-size: 2.5rem;
+  line-height: 5rem;
+}
+.services .service-container {
+  margin: 2rem;
+}
+.services .service-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+.services .service-container span {
+  font-size: 2rem;
+}
+.services .service-container p {
+  margin: 0 6rem;
+}
 /* services end */
 
 /* achievements start */
