@@ -1,5 +1,9 @@
 #achievements {
-    background: linear-gradient(90deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
+    background: linear-gradient(
+        90deg,
+        rgb(132, 144, 255) 0%,
+        rgb(98, 189, 252) 100%
+    );
     color: #fff;
     padding: 100px 0;
 }
@@ -17,5 +21,4 @@
 #achievements .single-achievements-entry .achievements-name {
     font-weight: 300;
     font-size: 14px;
-
 }
