@@ -1,10 +1,13 @@
 /* bendro pobudzio elementai, kuriuos galima naudoti skirtingose vietose, nepriklausomai nuo konteksto */
+html {
+    font-size: 87.5%; /* (14px on default browser settings) */
+}
 
 h1 {
     font-weight: 600;
-    font-size: 58px;
+    font-size: 4.15rem;
     color: rgb(34, 34, 34);
-    line-height: 70px;
+    line-height: 5rem;
     letter-spacing: 0;
     text-transform: uppercase;
     text-decoration: none;
@@ -12,9 +15,9 @@ h1 {
 
 h2 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 2.5rem;
     color: rgb(34, 34, 34);
-    line-height: 42px;
+    line-height: 3rem;
     letter-spacing: 0;
     text-transform: uppercase;
     text-decoration: none;
@@ -22,9 +25,9 @@ h2 {
 
 h3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.3rem;
     color: rgb(34, 34, 34);
-    line-height: 20px;
+    line-height: 1.4rem;
     letter-spacing: 0;
     text-transform: none;
     text-decoration: none;
@@ -32,9 +35,9 @@ h3 {
 
 h4 {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     color: rgb(34, 34, 34);
-    line-height: 16px;
+    line-height: 1.15rem;
     letter-spacing: 0;
     text-transform: uppercase;
     text-decoration: none;
@@ -42,9 +45,9 @@ h4 {
 
 p {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1rem;
     color: rgb(119, 119, 119);
-    line-height: 22px;
+    line-height: 1.5rem;
     letter-spacing: 0;
     text-transform: none;
     text-decoration: none;
@@ -52,10 +55,10 @@ p {
 
 button {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1rem;
     background: linear-gradient(90deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
     color: rgb(255, 255, 255);
-    line-height: 40px;
+    line-height: 2.85rem;
     letter-spacing: 0;
     padding: 5px 30px;
     text-transform: uppercase;
