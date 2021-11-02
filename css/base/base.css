@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: poppins, sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 h1 {
@@ -64,7 +64,11 @@ p {
 button {
     font-weight: 500;
     font-size: 1rem;
-    background: linear-gradient(90deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
+    background: linear-gradient(
+        90deg,
+        rgb(132, 144, 255) 0%,
+        rgb(98, 189, 252) 100%
+    );
     color: rgb(255, 255, 255);
     line-height: 2.85rem;
     letter-spacing: 0;
