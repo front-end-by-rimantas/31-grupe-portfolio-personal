@@ -1,0 +1,21 @@
+#achievements {
+    background: linear-gradient(90deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
+    color: #fff;
+    padding: 100px 0;
+}
+
+#achievements .single-achievements-entry {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#achievements .single-achievements-entry .achievements-value {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#achievements .single-achievements-entry .achievements-name {
+    font-weight: 300;
+    font-size: 14px;
+
+}
