@@ -222,4 +222,61 @@
 /* logos carousel end */
 
 /* footer start */
+
+#footer {
+    background-color: #04091e;
+    padding: 100px 0;
+}
+
+#footer .footer-container {
+    display: flex;
+    flex-direction: column;
+} 
+
+#footer .footer-container .single-widget {
+    margin: 25px;
+    padding: 10px;
+}
+
+#footer .footer-container .single-widget .widget-name {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#footer .footer-container .single-widget form .input-group-btn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer .footer-container .single-widget form input {
+    font-weight: 300;
+    font-size: 14px;
+    background-color: #f9f9ff;
+    padding-left: 15px;
+    border: none;
+}
+
+#footer .footer-container .single-widget form button {
+    background-color: #8490ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer .footer-container .single-widget a {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+#footer .footer-container .single-widget a i {
+    color: #fff;
+}
+
+#footer .footer-container .single-widget a i:hover {
+    color: #8490ff;
+}
+
 /* footer end */
