@@ -120,11 +120,14 @@
 #arrow span:hover {
     color: #ffffff;
     background-color: #8490ff;
+    cursor: pointer;
+}
+#cards-details:hover{
+    cursor: pointer;
 }
 #cards-details h4:hover {
     color: #8490ff;
 }
-
 /* feedback end */
 
 /* choose you plan start */
@@ -216,6 +219,59 @@
 /* choose you plan end */
 
 /* latest posts start */
+.latest-blog{
+    background-color: #f9f9ff;
+    
+}
+.blog-title{
+    text-align: center;
+    padding: 7.5rem 0 5.5rem 0;
+}
+.blog-title h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 0.625rem;
+    text-transform: none;
+}
+.single-post{
+    text-align: left;
+    margin: 0 2rem;
+    padding: 0 0 4rem 0;
+}
+.single-post img{
+    max-width: 100%;
+    height: auto;
+}
+.single-post h1{
+    margin: 0;
+    font-size: 1.125rem;
+}
+.post-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem 0 ;
+    border-bottom: 1px solid #eee;
+    color: #777777;
+}
+.img-name p {
+    color:#222222;
+}
+.img-name{
+    display: flex;
+    flex-direction: row;
+}
+.date-like-comment{
+    display: flex;
+    flex-direction: row;
+}
+.date-like-comment #heart {
+    padding: 0 10px 0 10px;
+}
+.blog-posts h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 2rem;
+}
 /* latest posts end */
 
 /* logos carousel start */
