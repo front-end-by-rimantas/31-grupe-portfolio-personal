@@ -290,23 +290,29 @@
 } 
 
 #footer .footer-container .single-widget {
-    margin: 25px;
-    padding: 10px;
+    margin-bottom: 50px;
 }
 
 #footer .footer-container .single-widget .widget-name {
     font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 18px;
     color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 #footer .footer-container .single-widget form .input-group-btn {
     display: flex;
     flex-wrap: wrap;
+    line-height: 3rem;
+}
+
+#footer .footer-container .single-widget form .input-group-btn .btn {
+    border-radius: 0rem;
 }
 
 #footer .footer-container .single-widget form input {
+    width: 80%;
     font-weight: 300;
     font-size: 14px;
     background-color: #f9f9ff;
@@ -315,9 +321,11 @@
 }
 
 #footer .footer-container .single-widget form button {
+    width: 10%;
     background-color: #8490ff;
     color: #fff;
     cursor: pointer;
+    border-radius: 0rem;
 }
 
 #footer .footer-container .single-widget a {
