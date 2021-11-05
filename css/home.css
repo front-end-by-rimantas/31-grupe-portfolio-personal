@@ -122,7 +122,7 @@
     background-color: #8490ff;
     cursor: pointer;
 }
-#cards-details:hover{
+#cards-details:hover {
     cursor: pointer;
 }
 #cards-details h4:hover {
@@ -219,11 +219,10 @@
 /* choose you plan end */
 
 /* latest posts start */
-.latest-blog{
+.latest-blog {
     background-color: #f9f9ff;
-    
 }
-.blog-title{
+.blog-title {
     text-align: center;
     padding: 7.5rem 0 5.5rem 0;
 }
@@ -233,41 +232,41 @@
     padding-bottom: 0.625rem;
     text-transform: none;
 }
-.single-post{
+.single-post {
     text-align: left;
     margin: 0 2rem;
     padding: 0 0 4rem 0;
 }
-.single-post img{
+.single-post img {
     max-width: 100%;
     height: auto;
 }
-.single-post h1{
+.single-post h1 {
     margin: 0;
     font-size: 1.125rem;
 }
-.post-info{
+.post-info {
     display: flex;
     justify-content: space-between;
-    padding: 0.625rem 0 ;
+    padding: 0.625rem 0;
     border-bottom: 1px solid #eee;
     color: #777777;
 }
 .img-name p {
-    color:#222222;
+    color: #222222;
 }
-.img-name{
+.img-name {
     display: flex;
     flex-direction: row;
 }
-.date-like-comment{
+.date-like-comment {
     display: flex;
     flex-direction: row;
 }
 .date-like-comment #heart {
     padding: 0 10px 0 10px;
 }
-.blog-posts h4{
+.blog-posts h4 {
     font-size: 1.25rem;
     font-weight: 600;
     padding: 2rem;
@@ -275,6 +274,26 @@
 /* latest posts end */
 
 /* logos carousel start */
+.brands {
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        90deg,
+        rgb(132, 144, 255) 0%,
+        rgb(98, 189, 252) 100%
+    );
+    overflow: hidden;
+}
+.brands img {
+    margin: 0 50px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.brands img:hover {
+    opacity: 1;
+}
 /* logos carousel end */
 
 /* footer start */
@@ -287,7 +306,7 @@
 #footer .footer-container {
     display: flex;
     flex-direction: column;
-} 
+}
 
 #footer .footer-container .single-widget {
     margin: 25px;
