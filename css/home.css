@@ -40,6 +40,9 @@
 /* this is me end */
 
 /* about me start */
+#about-me {
+    padding: 5rem 0;
+}
 #about-me-banner {
     text-align: center;
 }
@@ -53,7 +56,7 @@
 /* services start */
 #services {
     text-align: center;
-    /* margin: 5rem 0; */
+    margin: 5rem 0;
 }
 #services h3 {
     font-size: 2.5rem;
