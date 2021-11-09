@@ -31,8 +31,10 @@
   <header id="main-header">
     <a href="#"><img src="./assets/logo.png" alt="" /></a>
     <nav>
-      <div id="menu-icon"><span></span></div>
-      <div class="fullnav">
+      <div id="menu-icon" onclick="menuToggle()"><span></span></div>
+      <div id="menu-close" onclick="menuClose()">X</div>
+      
+      <div id="main-menu" class="fullnav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -45,6 +47,7 @@
         </ul>
       </div>
     </nav>
+    <!-- <div id="mobile-body-background"></div> -->
   </header>
   <!-- header end -->
 
@@ -409,6 +412,23 @@
     </div>
   </footer>
   <!-- footer end -->
+
+  <script>
+    const menuIcon = document.querySelector('#menu-icon');
+    const mainMenu = document.querySelector('#main-menu');
+    // const menuClose = document.querySelector('#menu-close');
+    // const mobileBody = document.querySelector('#mobile-body-background');
+
+    function menuToggle() {
+        mainMenu.classList.toggle('mobile-nav');
+        menuIcon.classList.toggle('mobile-nav');
+    }
+
+    function menuClose() {
+        mainMenu.classList.remove('mobile-nav');
+        menuIcon.classList.remove('mobile-nav');
+    }
+</script>
 
 </body>
 
