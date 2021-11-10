@@ -241,7 +241,7 @@
 }
 .single-post .blog-image {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 .single-post .blog-avatar {
     width: 30px;
