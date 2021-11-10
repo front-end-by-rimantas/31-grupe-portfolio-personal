@@ -21,6 +21,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
   <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
+  <script src=".//js/components/header/header.js" defer></script>
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
   <!-- favicons end -->
@@ -32,22 +33,21 @@
     <a href="#"><img src="./assets/logo.png" alt="" /></a>
     <nav>
       <div id="menu-icon" onclick="menuToggle()"><span></span></div>
-      <div id="menu-close" onclick="menuClose()">X</div>
-      
+           
       <div id="main-menu" class="fullnav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" onclick="menuClose()">Home</a></li>
+          <li><a href="#" onclick="menuClose()">About</a></li>
+          <li><a href="#" onclick="menuClose()">Services</a></li>
+          <li><a href="#" onclick="menuClose()">Portfolio</a></li>
+          <li><a href="#" onclick="menuClose()">Pricing</a></li>
+          <li><a href="#" onclick="menuClose()">Blog</a></li>
+          <li><a href="#" onclick="menuClose()">Pages</a></li>
+          <li><a href="#" onclick="menuClose()">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <!-- <div id="mobile-body-background"></div> -->
+    <div class="mobile-body-background" onclick="menuClose()"></div>
   </header>
   <!-- header end -->
 
@@ -412,23 +412,6 @@
     </div>
   </footer>
   <!-- footer end -->
-
-  <script>
-    const menuIcon = document.querySelector('#menu-icon');
-    const mainMenu = document.querySelector('#main-menu');
-    // const menuClose = document.querySelector('#menu-close');
-    // const mobileBody = document.querySelector('#mobile-body-background');
-
-    function menuToggle() {
-        mainMenu.classList.toggle('mobile-nav');
-        menuIcon.classList.toggle('mobile-nav');
-    }
-
-    function menuClose() {
-        mainMenu.classList.remove('mobile-nav');
-        menuIcon.classList.remove('mobile-nav');
-    }
-</script>
 
 </body>
 
