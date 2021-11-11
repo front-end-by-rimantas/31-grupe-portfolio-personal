@@ -10,3 +10,5 @@ function menuClose() {
     mainMenu.classList.remove('mobile-nav');
     mobileBody.classList.remove('open');
 }
+
+export { menuToggle, menuClose };
