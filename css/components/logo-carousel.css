@@ -1,0 +1,16 @@
+.brands {
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue-gradient);
+    overflow: hidden;
+}
+.brands img {
+    margin: 0 50px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.brands img:hover {
+    opacity: 1;
+}

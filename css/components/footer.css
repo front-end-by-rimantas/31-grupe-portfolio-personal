@@ -1,0 +1,58 @@
+#footer {
+    background-color: var(--footer-black);
+    padding: 100px 0;
+}
+
+#footer .footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .footer-container .single-widget {
+    margin-bottom: 50px;
+}
+
+#footer .footer-container .single-widget .widget-name {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#footer .footer-container .single-widget form .input-group-btn {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 3rem;
+}
+
+#footer .footer-container .single-widget form input {
+    width: 80%;
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: var(--light-bg);
+    padding-left: 15px;
+    border: none;
+}
+
+#footer .footer-container .single-widget form button {
+    width: 10%;
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 0;
+}
+
+#footer .footer-container .single-widget a {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+#footer .footer-container .single-widget a i {
+    color: var(--white);
+}
+
+#footer .footer-container .single-widget a i:hover {
+    color: var(--hover-blue);
+}

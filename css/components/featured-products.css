@@ -1,0 +1,55 @@
+.featured-products {
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.projects-menu {
+    text-align: center;
+}
+
+.projects-menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.projects-menu li a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.projects-menu li a:hover {
+    color: var(--hover-blue);
+}
+
+.projects-menu a:hover::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 30%;
+    outline: 1px solid var(--hover-blue);
+}
+
+.projects-list .project {
+    text-align: center;
+}
+
+.projects-list .project img {
+    width: 100%;
+}
+
+.projects-list .project .project-name {
+    font-weight: 600;
+    margin-top: 0.75rem;
+}
+
+.projects-list .project .project-tag {
+    font-size: 0.7rem;
+    color: var(--text-gray);
+}
