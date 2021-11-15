@@ -1,0 +1,61 @@
+.latest-blog {
+    background-color: var(--light-bg);
+}
+.blog-title {
+    text-align: center;
+    padding: 7.5rem 0 5.5rem 0;
+}
+.blog-title h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 0.625rem;
+    text-transform: none;
+}
+.single-post {
+    text-align: left;
+    padding: 0 2rem 4rem 2rem;
+}
+.single-post .blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.single-post .blog-avatar {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.single-post h1 {
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.625rem 0;
+    border-bottom: 1px solid var(--light-border);
+    color: var(--text-gray);
+}
+.img-name p {
+    color: var(--black);
+}
+.img-name {
+    display: flex;
+    flex-direction: row;
+}
+.date-like-comment {
+    display: flex;
+    flex-direction: row;
+}
+.date-like-comment #heart {
+    padding: 0 10px 0 10px;
+}
+.blog-posts h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 2rem;
+}

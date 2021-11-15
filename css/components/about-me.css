@@ -1,0 +1,10 @@
+#about-me {
+    padding: 5rem 0;
+}
+#about-me-banner {
+    text-align: center;
+}
+#about-me-banner img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,16 @@
+:root {
+    --blue-gradient: linear-gradient(
+        90deg,
+        rgb(132, 144, 255) 0%,
+        rgb(98, 189, 252) 100%
+    );
+    --white: #ffffff;
+    --black: #000000;
+    --light-bg: #f9f9ff;
+    --hover-blue: #8490ff;
+    --text-gray: #999999;
+    --header-black: rgb(34, 34, 34);
+    --footer-black: #04091e;
+    --dark-transparent: rgba(0, 0, 0, 0.8);
+    --light-border: #eeeeee;
+}

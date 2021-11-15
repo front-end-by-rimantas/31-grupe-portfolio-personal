@@ -1,0 +1,16 @@
+#this-is-me {
+    background-color: var(--light-bg);
+}
+#this-is-me h2 {
+    margin: 1.25rem 0;
+}
+#this-is-me {
+    padding-top: 6.25rem;
+}
+#this-is-me-img {
+    text-align: center;
+}
+#this-is-me-img img {
+    max-width: 100%;
+    height: auto;
+}

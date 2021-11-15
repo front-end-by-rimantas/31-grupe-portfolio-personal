@@ -1,10 +1,6 @@
 #achievements {
-    background: linear-gradient(
-        90deg,
-        rgb(132, 144, 255) 0%,
-        rgb(98, 189, 252) 100%
-    );
-    color: #fff;
+    background: var(--blue-gradient);
+    color: var(--white);
     padding: 100px 0;
 }
 
